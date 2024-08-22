@@ -1,0 +1,56 @@
+/* HomePage.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+    /* background-image: url('../images/home2.jpg'); Full-page background image */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.homepage-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 70px); /* Adjust height considering navbar height */
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.quote-container {
+    position: relative;
+    overflow: hidden;
+    height: 200px; /* Height for the scrolling area */
+    width: 100%; /* Ensure it takes full width */
+}
+
+.quote-scroll {
+    position: absolute;
+    width: 100%;
+    height: auto; /* Adjust height to fit quotes */
+    display: flex;
+    flex-direction: column;
+    animation: scroll 15s linear infinite; /* Adjust duration as needed */
+}
+
+.quote {
+    font-size: 24px;
+    font-family: Georgia, serif;
+    font-weight: normal;
+    margin: 20px 0; /* Space between quotes */
+    white-space: nowrap;
+    color: white; /* Ensure the text color is set */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

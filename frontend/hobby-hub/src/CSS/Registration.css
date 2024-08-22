@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Sansita:ital@1&display=swap');
+
+* {
+    font-family: 'Merienda', cursive;
+}
+
+.c-signup {
+    background-color: rgb(207, 230, 248); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-signupform {
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #2c7bfe;
+    border-radius: .75rem;
+    padding: 20px;
+    background-color: white;
+}
+
+.c-signupform input {
+    width: 85%;
+    height: 40px;
+    margin: 12px auto;
+    display: block;
+    border: 1px solid #2c7bfe; 
+    border-radius: .75rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: 400;
+}
+
+.c-signupform input::placeholder {
+    font-weight: 400;
+    font-size: larger;
+}
+
+.c-signupform input:focus {
+    font-weight: 500;
+    outline: none;
+    opacity: 0.9;
+}
+
+#c-allbtn1, #c-allbtn2 {
+    width: 130px;
+    padding: 0 30px;
+    background-color: #2c7bfe;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    font-size: 1.125rem;
+    height: 50px;
+    margin: 12px 5px;
+    transition: 0.15s;
+    float: right;
+}
+
+#c-allbtn2 {
+    background-color: #6c757d;
+}
+
+#c-allbtn1:hover, #c-allbtn2:hover {
+    opacity: 0.9;
+}
+
+.c-signupform p {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    border-radius: .75rem;
+}

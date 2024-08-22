@@ -1,0 +1,116 @@
+.background-container {
+    background: #f8f9fa; /* Light background color */
+    min-height: 100vh; /* Ensure full viewport height */
+    padding: 20px;
+}
+
+/* Center text with top margin for login message */
+.login-message {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Flex alignment for nav items */
+.navbar-nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust font size, color, and make navbar links bold */
+.navbar-nav .nav-item .c-navlink {
+    font-size: 1.2rem;
+    color: white; /* Default text color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Change text color to white and background color to blue shade on hover */
+.navbar-nav .nav-item .c-navlink:hover {
+    color: #ffffff; /* White color on hover */
+    background-color: #3c97f7; /* Blue color on hover */
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Flex alignment for dropdown items */
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+/* Space between icon and text in dropdown items */
+.dropdown-item i {
+    margin-right: 8px;
+}
+
+/* White color for the webname section */
+.c-webname {
+    color: white;
+    font-size: 30px;
+}
+
+/* Sticky navbar that takes up 100% width */
+.navbar-sticky {
+    width: 100%;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+    margin: 0; /* Removed top margin */
+    padding: 0.5rem 1rem; /* Adjust padding if needed */
+}
+
+/* Styling for nav links */
+.c-navlink {
+    color: #fff; /* Text color */
+    padding: 0.5rem 1rem; /* Padding for nav links */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Dark background color for navbar */
+.c-navcolor {
+    background-color: #87cefa; /* Light blue navbar color */
+}
+
+@media (max-width: 576px) {
+    .c-navlink {
+        padding: 0.5rem 0.75rem; /* Adjust padding for smaller screens */
+    }
+    .navbar-sticky {
+        padding: 0.5rem; /* Adjust padding for smaller screens */
+    }
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white; /* Match the navbar background color */
+}
+
+/* Flex alignment for dropdown items */
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem; /* Match navbar link font size */
+    font-family:'Georgia', serif;/* Use the same font family as navbar links */
+    color: black; /* Match text color */
+    /* font-weight: bold; Make text bold */
+    padding: 0.5rem 1rem; /* Padding for dropdown items */
+}
+
+/* Space between icon and text in dropdown items */
+.dropdown-item i {
+    margin-right: 8px;
+    font-size: 1.2rem; /* Increase icon size to match font size */
+}
+
+/* Change text color to white and background color to blue shade on hover */
+.dropdown-item:hover {
+    color: #ffffff; /* White color on hover */
+    background-color: #0c7ef7; /* Blue color on hover */
+}

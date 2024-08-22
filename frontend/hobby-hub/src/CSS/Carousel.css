@@ -1,0 +1,50 @@
+/* .c-Carouselimg
+{
+   width : 50%;
+   height : 400px;
+   
+} */
+
+/* Carousel container styling */
+/* Carousel container styling */
+/* Carousel container styling */
+
+
+.carousel-container {
+   position: relative;
+   width: 100vw; 
+   height: 100vh; 
+   overflow: hidden;
+   background-color: #000; 
+ }
+ 
+ .carousel-item img {
+   width: 100vw;
+   height: 100vh; 
+ }
+ 
+ .carousel-indicators {
+   bottom: 20px;
+ }
+ 
+ .carousel-indicators li {
+   background-color: rgba(0, 0, 0, 0.5);
+ }
+ 
+ .carousel-indicators .active {
+   background-color: #fff;
+ }
+ 
+ .carousel-control-prev,
+ .carousel-control-next {
+   width: 5%;
+ }
+ 
+ .carousel-control-prev-icon,
+ .carousel-control-next-icon {
+   background-color: rgba(0, 0, 0, 0.5);
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+ }
+ 

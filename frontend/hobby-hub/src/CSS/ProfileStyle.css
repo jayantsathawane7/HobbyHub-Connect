@@ -1,0 +1,97 @@
+body {
+    font-family: 'Georgia', serif, 'Arial', sans-serif; 
+  }
+  
+  .profile-card {
+    border: 1px solid #ddd;
+    border-radius: 12px; /* Slightly rounded corners for a modern look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    background-color: #ffffff; /* White background for contrast */
+    padding: 1.5rem; /* Add padding inside the card */
+    max-width: 500px; /* Restrict card width for better appearance */
+  }
+  
+  .profile-title {
+    font-size: 1.75rem; /* Larger title font size */
+    font-weight: 700; /* Bolder title font weight */
+    color: #333;
+    margin-bottom: 1.5rem; /* More space below the title */
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem; /* Space between profile sections */
+  }
+  
+  .profile-text {
+    font-size: 1rem; /* Increased font size for text */
+  }
+  
+  .group-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .group-item {
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #e9ecef;
+    text-align: left; /* Align text to the left */
+    font-size: 1rem; /* Increased font size for list items */
+  }
+  
+
+  .profile-info {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .profile-icon {
+    margin-right: 1rem; 
+    font-size: 1.5rem; 
+    color: rgb(23, 112, 255); 
+  }
+  
+  .profile-text {
+    margin: 0; 
+    font-size: 1.2rem; 
+    font-family: 'Georgia', serif, 'Arial', sans-serif;
+  }
+  
+  strong{
+    font-family:  'Arial', sans-serif;
+  }
+
+
+  .group-list {
+    list-style-type: none; 
+    width: 50%;
+    margin-left: 40px;
+  }
+  
+  .group-item {
+    margin-bottom: 0.5rem; 
+    font-family:  'Georgia', serif;
+    font-size: 1.1rem; 
+  }
+  
+  .form-container {
+    position: relative; /* Allows absolute positioning of child elements */
+  }
+  
+  .edit-icon {
+    position: absolute;
+    top: 35px; /* Distance from the top */
+    right: 35px; /* Distance from the right */
+    font-size: 1.5rem; /* Adjust the size of the icon as needed */
+    cursor: pointer; /* Shows a pointer cursor on hover */
+    color: #007bff; /* Optional: Customize the icon color */
+  }
+  
+  .edit-icon:hover {
+    color: #0056b3; /* Optional: Change color on hover */
+  }
+  

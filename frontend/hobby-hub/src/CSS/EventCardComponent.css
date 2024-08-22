@@ -1,0 +1,55 @@
+/* .event-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .event-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .event-card strong {
+    color: #333;
+  }
+   */
+
+   /* EventCardComponent.css */
+.event-card {
+  max-width: 300px; /* Limit the card width to make it compact */
+  margin: auto; /* Center the card horizontally */
+  padding: 15px; /* Add some padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: rgb(207, 230, 248);; /* Background color for better contrast */
+  font-family: 'Georgia', serif; /* Font family for a classic look */
+}
+
+.event-card-title {
+  font-size: 1.25rem; /* Slightly larger title for emphasis */
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.event-card-description {
+  font-size: 0.9rem; /* Smaller font size for the description */
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  font-size: 0.9rem; /* Font size for the rest of the text */
+  margin-bottom: 8px;
+}
+
+.event-card p strong {
+  color: #333; /* Emphasize labels with color */
+}

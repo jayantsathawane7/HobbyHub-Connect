@@ -1,0 +1,50 @@
+.hobby-form-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hobby-form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .hobby-form-container h2 {
+    margin-top: 0;
+  }
+  
+  .hobby-form-container label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .hobby-form-container input,
+  .hobby-form-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  
+  .hobby-form-container button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hobby-form-container button:hover {
+    background: #0056b3;
+  }
+  

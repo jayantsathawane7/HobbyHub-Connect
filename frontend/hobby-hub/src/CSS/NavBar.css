@@ -1,0 +1,37 @@
+
+
+a{
+    text-decoration: none;
+}
+
+/* NavBar.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Adjust font family as needed */
+    /* background-image: url('../images/Drawing.jpeg'); Full-page background image */
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white; /* Default text color */
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for navbar */
+    backdrop-filter: blur(5px); /* Blur effect for the image under the navbar */
+}
+
+.c-webname {
+    font-size: 24px;
+    font-family: Georgia, serif;
+    color: blue;
+    font-weight: bold;
+}
+
+/* Adjust font size and family for nav links */
+.c-navlink {
+    font-size: 16px;
+    font-family: Georgia, serif;
+    color: white;
+}

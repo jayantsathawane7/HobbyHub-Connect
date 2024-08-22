@@ -1,0 +1,25 @@
+
+/* GroupCardComponent.css */
+.group-card {
+    max-width: 300px; /* Limit the card width to make it compact */
+    margin: auto; /* Center the card horizontally */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.group-card-title {
+    font-size: 1.25rem; /* Slightly larger title for emphasis */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.group-card-description {
+    font-size: 0.9rem; /* Smaller font size for the description */
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.group-card .btn {
+    width: 100%; /* Full width button */
+}

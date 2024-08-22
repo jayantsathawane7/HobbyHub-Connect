@@ -1,0 +1,160 @@
+/* Existing styles */
+.start {
+  background-color: rgb(207, 230, 248); /* Light turquoise background */
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+/* Notification container styling */
+.notification-container {
+  margin: 20px auto; /* Center align horizontally */
+  padding: 30px;
+  width: 60%; /* Set width to 75% */
+  background-color: white; /* White background for the notifications section */
+  border-radius: 8px; /* Rounded corners for aesthetics */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Notification card styling */
+.notification-card {
+  width: 50%;
+  margin-bottom: 18px;
+  display: block;
+  transition: opacity 0.3s;
+  margin-left: 390px;
+}
+
+/* Card body styling */
+.card-body {
+  padding: 0.5rem;
+}
+
+.card-title{
+  font-family: 'Georgia', serif;
+  font-weight: 100;
+  text-align: justify;
+  font-size: 18px;
+}
+
+/* Table styling inside card body */
+.card-body table {
+  width: 100%;
+}
+
+.card-body tr {
+  display: flex;
+}
+
+.card-body td {
+  padding: 5px;
+}
+
+/* Icon styling */
+.notification-icon {
+  font-size: 1.5rem;
+  color: #007bff; /* Primary color for icons */
+  margin-right: 10px;
+}
+
+/* Title before pseudo-element styling */
+.card-title:before {
+  display: inline-block;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 1.1rem;
+  text-align: center;
+  border: 2px solid grey;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 3px;
+  margin-right: 10px;
+}
+
+/* Notification-specific styles */
+.notification-invitation .card-body .card-title:before {
+  color: #90CAF9;
+  border-color: #90CAF9;
+  content: "\f007";
+}
+
+.notification-warning .card-body .card-title:before {
+  color: #FFE082;
+  border-color: #FFE082;
+  content: "\f071";
+}
+
+.notification-danger .card-body .card-title:before {
+  color: #FFAB91;
+  border-color: #FFAB91;
+  content: "\f00d";
+}
+
+.notification-reminder .card-body .card-title:before {
+  color: #CE93D8;
+  border-color: #CE93D8;
+  content: "\f017";
+}
+
+/* Mark as read styling */
+.mark-as-read {
+  cursor: pointer;
+  color: #4eec83;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.mark-as-read:hover {
+  color: #0056b3; /* Darker shade for hover effect */
+}
+
+.text-center {
+  text-align: center !important;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-family: 'Georgia', serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .notification-card {
+    margin-bottom: 15px;
+  }
+
+  .notification-card td {
+    padding: 8px;
+  }
+
+  .notification-icon, .mark-as-read {
+    font-size: 20px;
+  }
+
+  /* Adjust card title font size */
+  .card-title {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .notification-card {
+    margin-bottom: 10px;
+  }
+
+  .notification-card td {
+    padding: 5px;
+  }
+
+  .notification-icon, .mark-as-read {
+    font-size: 18px;
+  }
+
+  /* Adjust card title font size for small screens */
+  .card-title {
+    font-size: 14px;
+  }
+}

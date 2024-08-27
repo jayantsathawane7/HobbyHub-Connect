@@ -1,5 +1,3 @@
-HobbyHub-Connect
-
 HobbyHub Connect is a web-based platform designed to bring people together based on shared hobbies and interests. It enables users to create and join groups, chat with other members, manage events, and share their thoughts and feedback with the community. The project includes both user and admin interfaces, providing comprehensive management capabilities for users and group administrators.
 
 Table of Contents
